@@ -35,3 +35,6 @@ bower_components/
 *.css-map
 build/
 dist/
+fonts/
+img/
+nbproject/
