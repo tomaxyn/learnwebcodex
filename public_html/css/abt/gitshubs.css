@@ -1,5 +1,5 @@
 body{
-    background: #31b0d5;
+    background:  #ECA144;
 }
 
 h1{
@@ -10,4 +10,8 @@ h1{
 h2{
     color: #FC0;
     font-family:  monospace;
+}
+h3{
+    color:  #27A967;
+    font-family:  fantasy;
 }
