@@ -1,0 +1,161 @@
+body{
+    padding-top: 85px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.margin-top{
+    margin-top: 25px;
+}
+h1, h2, h3{
+    font-family: 'Raleway', sans-serif;
+    color: #406c96;
+}
+h1{
+    font-weight: bold;
+}
+.highlight-primary{
+    background: #406c96;
+    color: #fff;
+    padding: 6px 22px;
+    display: inline;
+    line-height: 45px;
+    border-radius: 5px;
+}
+.logo{
+    height: 85px;    
+}
+
+.navbar-brand{    
+    padding: 0;
+}
+li span{
+    font-size: 11px;
+    color: purple;    
+}
+.navbar-nav > li{
+        text-align: center;
+        padding: 11px 2px;
+        border-radius: 5px;
+}
+.navbar-nav > li:active{
+     background: #406ca0;
+}
+.navbar-nav > li > a{
+    padding: 3px 15px;
+     color: #fff;
+}
+
+.navbar{
+    font-family: 'Raleway', sans-serif;
+    background: #bbf;
+    min-height: 95px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #aaa;
+    padding-top: 10px;
+}
+.nav>li>a:focus, .nav>li>a:hover{
+    background: none;
+}
+.nav>li:focus, .nav>li:hover{
+    background: #31b0d5;
+    cursor: pointer;
+}
+.nav li li{
+    padding: 3px 0;
+    border-left: 4px solid #d4cccc;
+}
+.nav li li:hover{
+    border-right: 3px solid #451123
+}
+
+section{
+    padding: 20px 0;
+    overflow: hidden;
+}
+
+section h1{
+    margin: 25px 0;
+}
+.section-showcase img{
+    width: 100%;
+    position: relative;
+    float: right;
+    margin-top: 30px;
+    border-radius: 10px;
+    margin-right: -500px;
+    
+}
+
+.section-default{
+    background: #f7f8f7;
+}
+
+.section-primary{
+    background: #406c96;
+}
+
+.list-feature{
+    list-style: none;
+    line-height: 40px;
+    padding: 5px 0;
+    font-size: 18px;
+}
+
+.fa{
+    color: #406ca6;
+    font-size: 35px;
+    width: 60px;
+    text-align: center        
+}
+
+.fa-white{
+    color:#fff;
+}
+
+.fa-lgo{
+    font-size: 5em;
+}
+
+.content-icons{
+    text-align: center;
+    display: block;
+}
+
+.content-icons h4{
+    color: #fff;        
+}
+
+.content-devices img{
+    //width: 30%;
+    position: relative;
+}
+.content-devices img#desktop{
+    width: 40%;
+}
+.content-devices img#laptop{
+    margin-left: -5%;
+    z-index: 100;
+    width: 30%;
+}
+.content-devices img#movilex{
+    z-index: 100;
+    width: 20%;
+}
+
+.animate{
+    transition: 1s ease-in-out;
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+    
+}
+img#laptop.animate{
+    transform: translate(12em,0);
+}
+
+img#movilex.animate{
+    transform: translate(-8em,0);
+}
+
+img#maini.animate{
+    transform: translate(-35.5em,0);
+}

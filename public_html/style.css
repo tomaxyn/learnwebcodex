@@ -1,0 +1,513 @@
+/*
+Theme Name: Worrco website
+Theme URI:
+Author: Alfredo Cesar Cortes Olivares
+Author URI:
+Version: 1.0.1
+Tags: html5, css3, wastewater plumbing
+*/
+
+*{
+	margin:0;
+	padding:0;
+}
+
+body{	
+        background: url('http://worrco.com/wpexa1/wp-content/themes/worrcoA/img/seigaiha.png');
+	font-family: 'Droid Sans', sans-serif;		
+}
+
+/*  estilos del header **/
+
+.site-header{
+	border-bottom: 1px solid #a1a1a1;
+	background-color:#eee;
+}
+
+.descrip1{
+    margin: 0;
+    font-size: 1.75em;    	
+    color: #707b80;    
+    margin-top: 45px;
+}
+
+.nav-justified {
+  background-color: #eee;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 3px auto;
+}
+.nav-justified > li > a {
+  padding-bottom: 2px;
+  margin-bottom: 0;
+  font-size:1.5em;
+  color: #1565B3;
+  text-align: center;
+  background-color: #e5e5e5; /* Old browsers */
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#f5f5f5), to(#e5e5e5));
+  background-image: -webkit-linear-gradient(top, #f5f5f5 0%, #e5e5e5 100%);
+  background-image:      -o-linear-gradient(top, #f5f5f5 0%, #e5e5e5 100%);
+  background-image:         linear-gradient(to bottom, #44bfef 0%,#e5e5e5 100%);
+  background-repeat: repeat-x; /* Repeat the gradient */
+  border-bottom: 1px solid #d5d5d5;
+}
+.nav-justified li{
+	border-right: 1px solid #aaa;
+}
+.nav-justified > .active > a,
+.nav-justified  > .active > a:hover,
+.nav-justified > .active > a:focus {
+  background-color: #286090;
+  color:aliceblue;
+  background-image: none;
+  -webkit-box-shadow: inset 0 3px 7px rgba(0,0,0,.15);
+          box-shadow: inset 0 3px 7px rgba(0,0,0,.15);
+}
+
+.nav-justified > li:first-child > a {
+  border-radius: 5px 5px 0 0;
+}
+.nav-justified > li:last-child > a {
+  border-bottom: 0;
+  border-radius: 0 0 5px 5px;
+}
+
+
+.imglo {
+	width: 65%;
+	margin: 4px 18%;
+	border: 2px solid #869CA6;
+	border-radius: 10px;
+}
+
+/**             Contenido               **/
+
+.contenido {
+	margin-top:0.5em;
+	
+}
+
+.notorius1{
+	font-size: 1.2em;
+	color: #444758;
+	text-align: justify;
+}
+
+div.panel-body ul li {
+	color: #ECA245;
+	font-size: x-large;
+	list-style: none;
+	line-height: 1.65em;
+}
+
+h1.tituloh1{	
+	color: #F0A341;
+        margin-bottom: 0;
+        text-align: center;
+}
+
+.tituloh2{
+	color:#1E759F;
+        margin-top: 8px;
+    //margin-bottom: 5;
+ }
+
+.titulo2{    
+    border-radius: 5px;
+    font-size:16px;
+    padding: 0.5em;
+    text-align: center;
+}
+.titulohome {
+	color: #98783C;
+	font-size: 28px;
+	margin-top: 39px;
+}
+img.logo1 {
+	margin: 0;
+	height: 75px;
+	margin-top: 5px;
+	border: 2px solid #869CA6;
+	border-radius: 5px;
+}
+
+.worrcos{
+    font-size: 1.3em;
+	color: #54B5Ec;
+}
+
+
+/**  Estilos callme now  **/
+
+#call_me_now {
+	color: #113;
+	text-align:center;
+	font-size: 1.5em;
+
+}
+#call_me_now a {
+	text-align: center;
+	text-decoration: none;
+	display: block;
+	font-weight: bold;
+	font-size:2em;
+}
+
+#call_me_now a:hover {
+	-webkit-opacity: 0.7;
+ 	-moz-opacity: 0.7;
+ 	-ms-opacity: 0.7;
+ 	-o-opacity: 0.7;
+ 	opacity: 0.7;
+}
+
+.call_me_now {
+	color: #9F5E0E;
+	text-align:center;
+	font-size: 0.85em;
+
+}
+.call_me_now a {
+	text-align: center;
+	text-decoration: none;
+	display: block;
+	font-weight: bold;
+	font-size: 1.25em;
+	color: #ad8450;
+	line-height: 36px;
+}
+
+.call_me_now a:hover {
+	-webkit-opacity: 0.7;
+ 	-moz-opacity: 0.7;
+ 	-ms-opacity: 0.7;
+ 	-o-opacity: 0.7;
+ 	opacity: 0.7;
+}
+
+.glyphicon {
+	font-size: 22px;
+	color: #5b7a9e;
+}
+.facepage{
+	font-size:1em;
+	color:#9F7239;
+        margin-top: 20px;
+	
+}
+/***   estilos contact  ****/
+
+.contactform{
+	color: #0F6F9F;
+	text-align: justify;
+}
+
+
+/***   footer   ***/
+
+footer {
+	background-color: #eee;
+	padding: 5px 0 0 0;
+	margin-top: 10px;
+	color: #ffffff;
+	border-top: 1px solid #a1a1a1;
+}
+
+footer p.site-info {
+	background-color: #337ab7;
+	font-size: 0.7em;
+	margin:3px;
+	padding: 3px 0;
+	
+}
+
+.linea1{
+	margin-bottom: 0.4em;
+}
+
+.anuncio1{
+	width:48%;
+	//padding-left:4%;
+	display:inline-block;
+}
+
+.anuncio2{
+	width:48%;
+	padding-left:20%;
+	display:inline-block;
+	//paddind
+}
+.anuncio3{
+    margin-top: 10px;
+}
+@media (max-width: 990px) {
+	.anuncio3{
+	display:none;
+	}
+        .descrip1{
+            font-size: 1.65em
+        }
+}
+
+
+/**	media queries	**/
+
+
+@media (max-width: 425px) {
+	
+	#call_me_now {
+		font-size: 1em;
+	}
+	#call_me_now a {
+		font-size: 1.5em;
+	}	       
+}
+
+/* estilos para imagenes */
+
+.marcothum{
+    background-color: #106FB4;
+}
+
+.capimags1{
+    text-align: justify;
+    color: #f0ad4e;
+}
+
+.noto2{
+    font-size: 1.65em;
+    text-align: justify;
+}
+
+
+.toups{
+	font-size: 0.5em;
+}
+
+/** estilos para carrousel  **/
+
+.carousel {
+width:96%; 
+margin:0 auto; /* center your carousel if other than 100% */ 
+}
+
+.slider-size{
+        height: 340px;
+ }
+
+.jumbint1{
+     background-color: #ECA144;
+     background-size: cover;  
+   
+}
+
+.anun1{
+    font-size: 2em;
+    color:#FC0;
+}
+.notorius2{
+	font-size: 1.5em;
+	color: #d5e5f3;
+	text-align: center;
+}
+
+.carhome{
+	margin-bottom: 1em;
+}
+
+.carousel-caption h3:first-child {
+  animation-delay: 1s;
+}
+
+.carousel-caption h3:nth-child(2) {
+  animation-delay: 2s;
+}
+
+/*  estilos pagina aboutus  */
+
+
+.marketing .col-md-4 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.marketing h2 {
+	font-weight: bold;
+	color: #004161;
+	font-size: 40px;
+}
+.marketing .col-md-4 p {
+	margin-right: 10px;
+	margin-left: 10px;
+	color: #9F5F0F;
+	font-size: 20px;
+	font-weight: bold;
+}
+.marketing .col-md-4 p span {
+	color: #0F6F9F;
+	font-size: 27px;
+}
+
+.abotit{
+	background-color: #fff;
+}
+
+.callcol{
+		margin-bottom:0px;
+		width:70%;
+		
+}
+
+.btntgl{
+	    margin: 0;
+    padding-right: 10%;
+}
+
+/*  estilos posts */
+
+h3.h3post1 {
+	font-size: 32px;
+}
+p.ppost1 {
+	font-size: 11px;
+}
+p.ppost1 span {
+	color: #4dbf4a;
+}
+p.texcerpt {
+	font-size: 20px;
+	text-align: justify;
+}
+h3.h3post2 {
+	font-size: 32px;
+}
+p.ppost2 {
+	font-size: 12px;
+}
+p.ppost2 span {
+	color: salmon;
+}
+p.thecont {
+	font-size: 20px;
+}
+
+/*  estilos generales */
+.jumbotron {
+	background: #1C75A3;
+	color: white;
+	
+}
+.jumbotron p {
+	color: white;
+	font-size: 15px;
+}
+
+.well {
+	background: #41B4F0;
+        margin-bottom: 8px;
+}
+.well h1 {
+	color: #A3610C;
+	font-size: 30px;
+}
+.well p{
+    font-size: 20px;
+}
+
+p.missvv{
+    font-size: 22px;
+    text-align: center;
+}
+
+figure{
+    margin: 0;
+}
+
+figcaption {
+	font-size: 30px;
+	text-align: center;
+	padding-top: 8px;
+	background-color: #F0A341;
+	padding-bottom: 5px;
+	color: #1C75A3;
+}
+img{
+    max-width: 100%;
+}
+iframe{
+	max-width: 100%;
+}
+
+a.btn.btn-sm.btn-block.btn-primary {
+	width: 65%;
+	float: left;
+	margin-top: 10px;
+        font-size: 13px;
+}
+
+textarea#comment {
+	color: #222;
+	max-width: 100%;
+}
+
+input#author{
+    max-width: 100%;
+}
+
+input#email{
+    max-width: 100%;
+}
+
+input#url{
+    max-width: 100%;
+}
+
+div.service {
+	background: #F0A341;
+	
+}
+
+div.service h2 {
+	color: #A3610C;
+	text-align: center;
+}
+div.service p {
+	text-align: center;
+	font-size: 21px;
+	color: #1C75A3;
+}
+
+.panel-default {
+	height: 350px;
+}
+
+.homenav{
+    text-align: center;
+    font-size: 3em;
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+h3.h3nav {
+	text-align: center;
+	font-size: 27px;
+	color: #eaeaea;
+}
+p.pnav {
+	font-size: 23px;
+	color: wheat;
+	text-align: justify;
+}
+
+.nav-pills > li > a {
+	border-radius: 4px;
+	font-size: 22px;
+}
+
+button.navbar-toggle.btntgl{
+    font-size: 17px;
+}
+
+span.glyphicon.glyphicon-collapse-down{
+    font-size: 30px
+}

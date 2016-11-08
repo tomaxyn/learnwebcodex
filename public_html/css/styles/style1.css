@@ -1,0 +1,83 @@
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.headersection{background: #363636;}
+.navbar-default{ 
+    background-color: #024959;
+    border-color: #ff0;
+}
+
+
+.bannersection{
+        background: url(img/water3.jpg)no-repeat;
+        background-size: cover;
+        background-position: bottom center;
+        background-attachment: fixed;
+        padding: 120px 0;
+}
+.imglogo{
+    margin-right: 25px;
+}
+.banner{}
+.banner h1{
+        color: #fff;
+    text-transform: uppercase;
+    font-size: 35px;
+}
+
+.banner p{    
+	color: #fff;
+	font-size: x-large;
+}
+
+.servicesection{
+    background-color: #F0A341;
+    padding: 25px 0;
+    
+}
+.service{
+    padding: 45px 0;
+}
+.service h2{}
+.service p{}
+.serviceimg{
+    border: 5px solid #A3610C;
+    border-radius: 3px;    
+    background: #a8a8a8 none repeat scroll 0 0;
+    box-shadow: 0 -2px 2px #999;
+    padding: 70px 0;
+}
+.serviceimg i{
+    color: #fff;
+    font-size: 45px;
+}
+
+.address{
+    padding: 20px 0;
+}
+.addheading{}
+.addheading h2{
+    text-align: center;
+    padding: 8px 0;
+    background: #A3610C;
+    max-width: 35%;
+    margin: 8px auto;
+    text-transform: uppercase;
+    color: #fff;
+}
+.house{}
+.house i {
+	background: #a6a6a6;
+	font-size: 30px;
+	border-radius: 25px;
+	height: 50px;
+	padding: 10px 14px;
+}
+.house span{}
+.social i{}
+.mymap{}
